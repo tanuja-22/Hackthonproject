@@ -1,0 +1,8 @@
+{
+    "name": "student-recognition-system",
+    "version": "1.0.0",
+    "description": "A system to recognize top-performing students",
+    "scripts": {
+      "build": "echo 'No build step required'"
+    }
+  }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Recognition System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Recognition System</h1>
+    <div id="studentForm">
+      <input type="text" id="name" placeholder="Student Name">
+      <input type="text" id="batch" placeholder="Batch">
+      <input type="number" id="academicPerformance" placeholder="Academic Performance (0-100)">
+      <button onclick="addStudent()">Add Student</button>
+    </div>
+    <button onclick="recognizeBestStudents()">Recognize Best Students</button>
+    <div id="studentList"></div>
+    <div id="bestStudents"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
